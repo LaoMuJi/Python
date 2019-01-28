@@ -72,14 +72,14 @@ class ScreenSaver:
         self.num_balls = random.randint(6, 20)
         self.root = tkinter.Tk()
         #取消边框
-        self.root.overrideredirect()
+        self.root.overrideredirect(1)
         #移动鼠标停止
-        # self.root.bind('<Motion>', self.myquit)
-        #按键停止，不会
-
+        self.root.bind('<Motion>', self.myquit)
+        #按键停止
+        self.root.bind('<Key>', self.myquit)
         #获取屏幕大小
         w,h = self.root.winfo_screenwidth(), self.root.winfo_screenheight()
-        w,h = 800,600
+        # w,h = 800,600
 
         #创建画布，包括画布的归属，规格
         self.canvas = tkinter.Canvas(self.root, width=w, height=h)
@@ -99,8 +99,8 @@ class ScreenSaver:
         for ball in self.balls:
             ball.move_ball()
 
-        #after是200毫秒后启动函数
-        self.canvas.after(200, self.run_screen_saver)
+        #after是50毫秒后启动函数
+        self.canvas.after(50, self.run_screen_saver)
 
     def myquit(self, e):
         #
