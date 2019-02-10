@@ -1,6 +1,6 @@
-import socket
+a = False
 
-s=socket.socket(socket.AF_INET,socket.SOCK_STREAM)
-
-s.close()
-
+if not a:
+    print(1)
+else:
+    print(2)
