@@ -22,6 +22,11 @@ show_label = Label(frame_show, textvariable=sv, bg = 'green', width=12, height=1
 show_label.pack(padx=10, pady=10)
 
 
+num1 = 0
+num2 = 0
+operator = None
+
+
 def delete():
     print('del')
 
@@ -33,12 +38,26 @@ b_del.grid(row=0,column=0)
 
 
 def change(num):
-    print(num)
+
+    global num1,num2
+
+    if operator:
+        num2 = num2 + int(num)
+        # 如果是第二个操作数 ，则应该显示完整的计算式子
+        sv.set(num1+operator+num2)
+    else:
+        num1 = num1 + int(num)
+        # 如果是第一个操作数，则只显示第一个操作数
+        sv.set(num1)
 
 
 def operation(op):
-    print(op)
-
+    if op in ['+','-','*','/']:
+        operator = op
+    else:
+        if op == '+':
+            rst = int(num1)+ int(num2)
+        sv.set(str(rst))
 
 b_1 = Button(frame_bord, text='1', width=5, height=2, \
              command=lambda: change("1"))
@@ -53,3 +72,4 @@ b_jia.grid(row=2, column=0)
 frame_bord.pack(padx=10,pady=10)
 
 root.mainloop()
+
