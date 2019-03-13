@@ -1,49 +1,28 @@
-import threading
-import time
-
-# Python2
-# from Queue import Queue
-
-# Python3
-import queue
+import multiprocessing
+from time import sleep, ctime
 
 
-class Producer(threading.Thread):
-    def run(self):
-        global queue
-        count = 0
+class ClockProcess(multiprocessing.Process):
+    '''
+    两个函数比较重要
+    1. init构造函数
+    2. run
+    '''
+
+    def __init__(self, interval):
+        super().__init__()
+        self.interval = interval
+
+    def run1(self):
         while True:
-            # qsize返回queue内容长度
-            if queue.qsize() < 1000:
-                for i in range(100):
-                    count = count +1
-                    msg = '生成产品'+str(count)
-                    # put是网queue中放入一个值
-                    queue.put(msg)
-                    print(msg)
-            time.sleep(0.1)
-
-
-class Consumer(threading.Thread):
-    def run(self):
-        global queue
-        while True:
-            if queue.qsize() > 100:
-                for i in range(3):
-                    # get是从queue中取出一个值
-                    msg = self.name + '消费了 '+queue.get()
-                    print(msg)
-            time.sleep(0.2)
+            print("The time is %s" % ctime())
+            sleep(self.interval)
 
 
 if __name__ == '__main__':
-    queue = queue.Queue()
+    p = ClockProcess(3)
+    p.run1().start()
 
-    for i in range(1):
-        queue.put('初始产品'+str(i))
-    for i in range(1):
-        p = Producer()
-        p.start()
-    for i in range(1):
-        c = Consumer()
-        c.start()
+    while True:
+        print('sleeping.......')
+        sleep(1)

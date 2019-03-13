@@ -43,7 +43,6 @@ def jib():
         lock2.release()
 
 
-
 if __name__ == '__main__':
     t1 = threading.Thread(target=jia,args=())
     t2 = threading.Thread(target=jib,args=())
@@ -52,4 +51,11 @@ if __name__ == '__main__':
     t1.join()
     t2.join()
 
-    print(a)
+
+
+# 可以被一个线程多次申请，主要解决递归调用的时候，需要重复申请锁的情况
+mutex = threading.RLock()
+# 上锁
+mutex.acquire()
+# 开锁1
+mutex.release()

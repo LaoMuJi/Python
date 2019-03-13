@@ -121,28 +121,3 @@ for i in range(1000):
 t1 = timeit.timeit(stmt=c, number=100)
 print(t1)
 
-
-
-
-import os
-
-# 查看当前路径
-mydir = os.getcwd()
-print(mydir)
-
-
-# 改变当前目录
-os.chdir('c:/')
-mydir = os.getcwd()
-print(mydir)
-
-
-# 获取当前目录下所有文件、文件夹
-ld = os.listdir()
-print(ld)
-
-# 执行命令行命令
-rst = os.system("dir")
-print(rst)
-
-print(os.name)
