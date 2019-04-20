@@ -2,7 +2,7 @@ import  socket
 
 
 def main():
-    # 创建TCP套接字
+    # 创建TCP套接字，socket.AF_INET使用ipv4
     tcp_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 
     # 链接服务器
@@ -14,7 +14,7 @@ def main():
     while True:
         # 发送数据/接受数据
         send_data = input('发送数据：')
-        tcp_socket.send(send_data.encode('UTF-8'))
+        tcp_socket.send(send_data.encode())
 
         if send_data == 'exit':
             break

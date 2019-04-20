@@ -19,11 +19,11 @@ def main():
         while True:
             # 接收客服端发来的请求
             recv_data = new_client_socket.recv(1024)
-            print(recv_data.decode('UTF-8'))
+            print(recv_data.decode())
 
             if recv_data:
             # 返回消息
-                new_client_socket.send('已收到'.encode('UTF-8'))
+                new_client_socket.send('已收到'.encode())
             else:
                 break
 
