@@ -1,3 +1,4 @@
+import time
 def abc():
     for a in qwe:
         for b in qwe:
@@ -25,12 +26,14 @@ def abc():
                                     y = int('{0}{1}{2}{3}{4}{5}'.format(g, e, r, a, l, d))
                                     z = int('{0}{1}{2}{3}{4}{5}'.format(r, o, b, e, r, t))
                                     if x + y == z:
-                                        print("donald:{0}".format(x))
+                                        print("donald:%d" % x)
                                         print("gerald:{0}".format(y))
                                         print("robert:{0}".format(z))
 
 if __name__ == '__main__':
+    shijian1 = time.time()
     d,t = 5,0
     qwe = [1, 2, 3, 4, 6, 7, 8, 9]
     abc()
+    print('用时',time.time()-shijian1,'秒')
 

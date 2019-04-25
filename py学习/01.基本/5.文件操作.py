@@ -75,7 +75,8 @@ with open(r'ZZ2.txt', 'rb') as f:
     print(a)
 
 
-# 类似字典，用kv对保存数据，存取方式跟字典也类似
+
+# db数据 类似字典，用kv对保存数据，存取方式跟字典也类似
 # 不支持多个应用并行写入，open的时候可以使用flag=r(文件不存在报错)
 import shelve
 
