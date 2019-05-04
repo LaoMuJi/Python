@@ -4,6 +4,8 @@ import socket
 def main():
     # 创建套接字
     tcp_server_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+    # 服务器先关闭保证端口立即关闭不会被占用
+    tcp_server_socket.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
 
     # 绑定本地信息
     tcp_server_socket.bind(('', 8888))
@@ -29,6 +31,7 @@ def main():
 
         # 关闭套接字
         new_client_socket.close()
+        break
 
     tcp_server_socket.close()
 

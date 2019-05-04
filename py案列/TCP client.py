@@ -1,4 +1,4 @@
-import  socket
+import socket
 
 
 def main():
@@ -15,6 +15,10 @@ def main():
         # 发送数据/接受数据
         send_data = input('发送数据：')
         tcp_socket.send(send_data.encode())
+
+        # 接收数据
+        recdata = tcp_socket.recv(1024)
+        print('接收到的数据：', recdata.decode())
 
         if send_data == 'exit':
             break
