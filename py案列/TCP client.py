@@ -6,9 +6,12 @@ def main():
     tcp_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 
     # 链接服务器
-    server_ip = input('要连接的IP：')
-    server_port = int(input('要连接的port：'))
-    server_addr = (server_ip, server_port)
+    # server_ip = input('要连接的IP：')
+    # server_port = int(input('要连接的port：'))
+    # server_addr = (server_ip, server_port)
+
+    server_addr = ('127.0.0.1', 8888)
+
     tcp_socket.connect(server_addr)
 
     while True:

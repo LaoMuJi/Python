@@ -1,9 +1,7 @@
 import re
 
-# —————————查找—————————
 
-
-
+# 从头匹配
 # re.match(r'.', '', re.S).group()    re.S：.包括反斜杠   re.I表示忽略大小写
 m = re.match(r'\d+', '1233zzz42').group()
 print(m)
@@ -16,7 +14,7 @@ print(m)
 # print(m.group())
 
 
-
+# 任意位置匹配
 m = re.search(r'\d+', 'sdhjka23213hjkasdh4213').group()
 print(m)
 
