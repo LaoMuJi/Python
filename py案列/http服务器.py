@@ -1,6 +1,6 @@
 import socket
 import re
-import select
+# import select
 
 def service_client(new_socket, request):
     request_lines = request.splitlines()
@@ -14,7 +14,7 @@ def service_client(new_socket, request):
             file_name = '/index.html'
 
     try:
-        f = open('.' + file_name, 'rb')
+        f = open('D:/Net' + file_name, 'rb')
     except:
         respose = 'HTTP/1.1 404 NOT FOUNDD\r\n\r\n404'
         new_socket.send(respose.encode())

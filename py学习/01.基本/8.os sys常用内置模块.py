@@ -76,3 +76,8 @@ with zipfile.ZipFile('C:/Users/lcc92/Desktop/test.zip', mode='w') as z:
 
     # 解压zip     参数members的默认值为zip文档内的所有文件名称列表，也可以自己设置，选择要解压的文件名称。
     z1 = z.extractall('C:/Users/lcc92/Desktop')
+
+
+# 重新加载模块a
+from importlib import reload
+reload(a)

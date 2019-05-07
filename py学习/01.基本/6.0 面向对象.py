@@ -60,3 +60,8 @@ z = Z()
 z.zzz()
 z.abc()
 z.bcd()
+
+
+# 私有属性或方法 import无法导入，类、之类可以访问
+_a = 4
+print(a)
