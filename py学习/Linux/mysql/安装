@@ -1,0 +1,19 @@
+安装
+install mysql-server
+isntall mysql-client
+install libmysqlclient-dev
+
+
+登录
+mysql -uroot -p
+    如果1698错误先使用
+    sudo su
+    mysql -uroot -p 没密码直接两下回车
+
+
+修改默认密码
+etc/mysql/debian.cnf
+
+
+修改完密码，需要重启mysql
+/etc/init.d/mysql restart;

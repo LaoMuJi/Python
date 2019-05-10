@@ -13,8 +13,9 @@ class X(object):
         self.a = 1
         print(self.a, self.num)
 
-    def abc(self):
-        print('干活中')
+    # args是元祖，多余的参数会传入。kwargs是字典、a=1会传入
+    def abc(self, *args, **kwargs):
+        print('干活中1')
 
 
 class Y(X):
@@ -35,33 +36,11 @@ x._X__siyou()  # 1, 99
 
 # 调用子
 y = Y('99')
-y.de()  # 干活中 干活中 干活中2
+y.de()  # 干活中 干活中1 干活中2
 
 
-
-
-class Z():
-
-    def zzz(self):
-        print("1")
-
-    # 类方法
-    @classmethod
-    def abc(cls):
-        print("2")
-
-    # 静态方法
-    @staticmethod
-    def bcd():
-        print("3")
-
-
-z = Z()
-z.zzz()
-z.abc()
-z.bcd()
 
 
 # 私有属性或方法 import无法导入，类、之类可以访问
 _a = 4
-print(a)
+# print(a)
