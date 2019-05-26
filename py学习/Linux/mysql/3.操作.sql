@@ -210,6 +210,56 @@ insert into classes values (0, "python_01期"), (0, "python_02期");
 
 
   -- group_concat 查询同种性别中的姓名
-    -- 查询同种性别中的姓名
-    select gender,group_concat(name,"_",age,"_",id) from students where gender=1 group by gender;
+  select gender,group_concat(name,"_",age,"_",id) from students where gender=1 group by gender;
+
+  -- having 查询平均年龄超过30岁的性别，以及姓名
+  select gender, group_count(name),avg(age) from students group by gender having avg(age)>30;
+
+  -- 查询每种性别中的人数大于2的信息
+  select gender,group_concat(name) from students group by gender having count(*)>2;
+
+
+-- 分页
+  -- limit start, count
+
+  -- 限制查询出来的数据个数
+  select * from students where gender=1 limit 2;
+  select * from students limit 0, 5;  -- 0是起始位置，5是个数
+
+  --   每页显示2个，显示第6也的信息，按照年龄从小到大
+  select * from students order by age asc limit 10,2;
+
+
+
+-- 链接查询
+  -- inner join查询 有能够对应班级的学生以及班级信息
+    select * from students inner join classes on students.cls_id = classes.id;
+
+    -- 按照要求显示姓名，班级
+    select students.name, classes.name from students inner join classes on students.cls_id = classes.id;
+
+      -- 给数据包起名字
+      select s.name, c.name from students as s inner join classes as c on s.cls_id = c.id;
+
+    -- 查询 有能够对应班级的学生以及班级信息，显示学生的所有信息，只显示班级名称
+    select s.*, c.name from students as s inner join classes as c on s.cls_id=c.id;
+
+    -- 当显示同一班级的时候，按照学生ID进行从小到大排序
+    select c.name, s.* from students as s inner join classes as c on s.cls_id=c.id order by c.name,s.id;
+
+  -- left join 查询每位学生对应的班级信息
+    select * from students as s left join classes as c on s.cls_id=c.id;
+
+    -- 查询没有对应班级信息的学生
+      -- 从原表查找结果用where
+      select * from students as s left join classes as c on s.cls_id=c.id having c.id is null;
+      -- 从原表查找结果用having
+      select * from students as s left join classes as c on s.cls_id=c.id where c.id is null;
+
+-- 自关联
+
+
+-- 子查询
+  -- 查询最高的男生信息
+  select * from students where height = (select max(height) from students);
 
