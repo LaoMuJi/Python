@@ -51,6 +51,6 @@
   primary key         主键
   auto_increment      自动递增	适用于整数类型
   unsigned	          无符号
-  unique              唯一，此字段
+  unique              唯一此字段
   character set name	指定一个字符集
 

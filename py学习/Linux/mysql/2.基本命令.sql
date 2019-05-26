@@ -34,59 +34,61 @@
     -- default 默认值
     -- create table 数据表名字(字段 类型 约束(, 字段 类型 约束));
     -- 创建classes表(id,name)
-    create table xx(id int, name varchar(30));
-    create table xx(id int primary key not null auto, name varchar(30));
+      create table xx(id int, name varchar(30));
+      create table xx(id int primary key not null auto, name varchar(30));
 
     -- desc 数据表的名字;
-    desc xx;
+    -- 查询数据表属性
+     desc xxx;
 
     -- 创建students表(id、name、age、high、gender、cls_id)
-    create table students (
-        id int unsigned not null auto_increment primary key,
-        name varchar(30),
-        age tinyint unsigned default 0,
-        high decimal(5,2),
-        gender enum("男", "女", "中", "保密") default "保密",
-        cls_id int unsigned
-    );
+      create table students (
+          id int unsigned not null auto_increment primary key,
+          name varchar(30),
+          age tinyint unsigned default 0,
+          high decimal(5,2),
+          gender enum("男", "女", "中", "保密") default "保密",
+          cls_id int unsigned
+      );
 
-        -- 添加数据
-        insert into students values(0, "老王", 18, 188.88, "男", 0);
-        -- 查看表
-        select * from students;
+          -- 添加数据
+            insert into students values(0, "老王", 18, 188.88, "男", 0);
+            insert into students (...) select ... from ...;
+          -- 查看表
+            select * from students;
 
     -- 创建classes表（id、name）
-    create table classes(
-        id int unsigned not null auto_increment,
-        name
-    );
+      create table classes(
+          id int unsigned not null auto_increment,
+          name
+      );
 
-    insert into classes values(0, "一二三")
-    select * from classes;
+      insert into classes values(0, "一二三")
+      select * from classes;
 
     -- 查看表的创建语句
-    show create table python
+      show create table python
 
     -- 修改表-添加字段
-    -- alter table 表名 add 列名 类型;
-    alter table students add birthday datetime;
+      -- alter table 表名 add 列名 类型;
+      alter table students add birthday datetime;
 
 
     -- 修改表-修改字段：不含重命名版
-    -- alter table 表名 modify 列名 类型及约束;
-    alter table students modify birthday date;
+      -- alter table 表名 modify 列名 类型及约束;
+      alter table students modify birthday date;
 
     -- 修改表-修改字段：重命名版
-    after table 表名 change 原名 新名 类型及约束;
-    after table students change birthday birth birth date default "2000-01-01"
+      after table 表名 change 原名 新名 类型及约束;
+      after table students change birthday birth birth date default "2000-01-01"
 
     -- 修改表-删除字段
-    -- after table 表名 drop 列名;
-    after table students drop high;
+      -- after table 表名 drop 列名;
+      after table students drop high;
 
     -- 删除表
-    -- drop table 表名;
-    drop table 数据表;
+      -- drop table 表名;
+      drop table 数据表;
 
 
 

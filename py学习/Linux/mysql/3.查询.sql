@@ -44,9 +44,12 @@ insert into classes values (0, "python_01期"), (0, "python_02期");
 
 
 
-
-
 -- 查询
+
+  -- desc 数据表的名字;
+  -- 查询数据表属性
+  desc students;
+
   -- 查询students数据库里面所有表
   select * from students;
 
