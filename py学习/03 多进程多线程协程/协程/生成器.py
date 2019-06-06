@@ -9,16 +9,16 @@ def num(num1):
     return 'OK'
 
 
-obj = num(1000)
+obj = num(100)
 
 # 使用send参数赋予给 c 变量
-d = obj.send('111')
-print(d)
+# d = obj.send('111')
+# print(d)
 
-# while True:
-#     try:
-#         ret = next(obj)
-#         print(ret)
-#     except Exception as e:
-#         print(e.value)
-#         break
+while True:
+    try:
+        ret = next(obj)
+        print(ret)
+    except Exception as e:
+        print(e.value)
+        break

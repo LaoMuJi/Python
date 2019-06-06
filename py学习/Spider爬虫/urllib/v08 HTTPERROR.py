@@ -13,7 +13,7 @@ if __name__ == '__main__':
     try:
 
         req = request.Request(url)
-        rsp = request.urlopen( req )
+        rsp = request.urlopen(req)
         html = rsp.read().decode()
         print(html)
 

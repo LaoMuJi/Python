@@ -31,9 +31,9 @@ def abc():
                                         print("robert:{0}".format(z))
 
 if __name__ == '__main__':
-    shijian1 = time.time()
+    time1 = time.time()
     d,t = 5,0
     qwe = [1, 2, 3, 4, 6, 7, 8, 9]
     abc()
-    print('用时',time.time()-shijian1,'秒')
+    print('用时',time.time()-time1,'秒')
 

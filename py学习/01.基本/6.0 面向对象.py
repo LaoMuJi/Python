@@ -13,9 +13,12 @@ class X(object):
         self.a = 1
         print(self.a, self.num)
 
-    # args是元祖，多余的参数会传入。kwargs是字典、a=1会传入
+    # args是元祖，多余的参数会传入，变成元祖
+    # kwargs是字典、a=1会传入
     def abc(self, *args, **kwargs):
-        print('干活中1')
+        print(args)
+        print(kwargs)
+
 
 
 class Y(X):
@@ -44,3 +47,7 @@ y.de()  # 干活中 干活中1 干活中2
 # 私有属性或方法 import无法导入，类、之类可以访问
 _a = 4
 # print(a)
+
+
+print('*'*10)
+X.abc(1,2,3, m=10, n=11)
