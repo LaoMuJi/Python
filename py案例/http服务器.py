@@ -28,10 +28,10 @@ def service_client(new_socket, request):
 
 
 def main():
-    tcp_server_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+    tcp_server_socket = socket.socket(socket.AF_INET6, socket.SOCK_STREAM)
     tcp_server_socket.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
     tcp_server_socket.setblocking(False)
-    tcp_server_socket.bind(('', 8888))
+    tcp_server_socket.bind(('', 80))
     tcp_server_socket.listen(128)
 
     # 创建一个epoll对象

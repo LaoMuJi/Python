@@ -1,11 +1,2 @@
-def a(b):
-    def c(d):
-        print('Z')
-        b(d)
-    return c
-
-@a
-def e(f):
-    print(f)
-
-e(100)
+import socket
+tcp_server_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
