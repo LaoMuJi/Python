@@ -11,6 +11,6 @@ with open("t.json", 'w') as f:
 
 # 读取
 with open("t.json", 'r') as f:
-    d = json.load( f)
+    d = json.load(f)
     print(d)
 
