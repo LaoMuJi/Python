@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2bc700e0-4c28-477a-a61d-69b69d848947" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/爬取声兮.py" beforeDir="false" afterPath="$PROJECT_DIR$/爬取声兮.py" afterDir="false" />
-    </list>
+    <list default="true" id="2bc700e0-4c28-477a-a61d-69b69d848947" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,8 +98,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/爬取声兮.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1047">
-              <caret line="128" selection-start-line="128" selection-end-line="128" />
+            <state relative-caret-position="917">
+              <caret line="136" lean-forward="true" selection-start-line="136" selection-end-line="136" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -501,7 +498,7 @@
       <workItem from="1563008458700" duration="133000" />
       <workItem from="1563008611879" duration="1325000" />
       <workItem from="1563010056231" duration="78000" />
-      <workItem from="1563010205179" duration="11000" />
+      <workItem from="1563010205179" duration="299000" />
     </task>
     <task id="LOCAL-00001" summary="1.">
       <created>1547038018817</created>
@@ -741,11 +738,18 @@
       <option name="project" value="LOCAL" />
       <updated>1563009089476</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary=".">
+      <created>1563010243908</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1563010243908</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="749785000" />
+    <option name="totallyTimeSpent" value="750073000" />
   </component>
   <component name="TodoView" selected-index="4">
     <todo-panel id="selected-file">
@@ -758,14 +762,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="377" y="105" width="1508" height="1452" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21931034" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3252351" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49585634" weight="0.18863636" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49585634" visible="true" weight="0.18863636" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.2976032" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -842,6 +845,9 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Python$.coverage" NAME="爬取声兮 Coverage Results" MODIFIED="1563010354834" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/py学习/02 xml json xpath/08 写入读取json.py">
@@ -1204,8 +1210,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/爬取声兮.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1047">
-          <caret line="128" selection-start-line="128" selection-end-line="128" />
+        <state relative-caret-position="917">
+          <caret line="136" lean-forward="true" selection-start-line="136" selection-end-line="136" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
