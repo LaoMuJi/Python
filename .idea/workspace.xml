@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2bc700e0-4c28-477a-a61d-69b69d848947" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -100,8 +101,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/爬取声兮.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="932">
-              <caret line="119" column="24" lean-forward="true" selection-start-line="119" selection-start-column="24" selection-end-line="119" selection-end-column="24" />
+            <state relative-caret-position="1152">
+              <caret line="135" selection-start-line="135" selection-end-line="135" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -129,6 +130,9 @@
       <find>limit</find>
       <find>multiprocessing</find>
     </findStrings>
+  </component>
+  <component name="Git.Rebase.Settings">
+    <option name="ONTO" value="refs/heads/master" />
   </component>
   <component name="Git.Settings">
     <option name="ROOT_SYNC" value="DONT_SYNC" />
@@ -220,7 +224,7 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="297" />
+    <option name="x" value="296" />
     <option name="y" value="140" />
     <option name="width" value="1885" />
     <option name="height" value="1815" />
@@ -266,7 +270,7 @@
     <property name="node.js.path.for.package.jscs" value="project" />
     <property name="node.js.selected.package.jscs" value="" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -506,6 +510,7 @@
       <workItem from="1563008611879" duration="1325000" />
       <workItem from="1563010056231" duration="78000" />
       <workItem from="1563010205179" duration="6308000" />
+      <workItem from="1563028043136" duration="190000" />
     </task>
     <task id="LOCAL-00001" summary="1.">
       <created>1547038018817</created>
@@ -777,7 +782,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="756082000" />
+    <option name="totallyTimeSpent" value="756462000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -789,13 +794,11 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="377" y="105" width="1508" height="1452" extended-state="0" />
-    <editor active="true" />
+    <frame x="237" y="112" width="1508" height="1452" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21931034" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22482759" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="GitHub Pull Requests" weight="0.32954547" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3252351" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4951724" weight="0.18863636" />
@@ -809,6 +812,7 @@
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5027586" side_tool="true" weight="0.3287879" />
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.32651514" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.3287879" />
+      <window_info active="true" anchor="bottom" id="GitHub Pull Requests" order="13" weight="0.32954547" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -1250,8 +1254,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/爬取声兮.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="932">
-          <caret line="119" column="24" lean-forward="true" selection-start-line="119" selection-start-column="24" selection-end-line="119" selection-end-column="24" />
+        <state relative-caret-position="1152">
+          <caret line="135" selection-start-line="135" selection-end-line="135" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
