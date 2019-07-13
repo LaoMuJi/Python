@@ -130,6 +130,9 @@ def aa():
 
 
 if __name__ == '__main__':
+    while True:
         a()
+        time.sleep(120)
+
 
 
