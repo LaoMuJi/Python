@@ -98,8 +98,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/爬取声兮.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="917">
-              <caret line="136" lean-forward="true" selection-start-line="136" selection-end-line="136" />
+            <state relative-caret-position="1695">
+              <caret line="113" column="27" lean-forward="true" selection-start-line="113" selection-start-column="27" selection-end-line="113" selection-end-column="27" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -498,7 +498,7 @@
       <workItem from="1563008458700" duration="133000" />
       <workItem from="1563008611879" duration="1325000" />
       <workItem from="1563010056231" duration="78000" />
-      <workItem from="1563010205179" duration="299000" />
+      <workItem from="1563010205179" duration="558000" />
     </task>
     <task id="LOCAL-00001" summary="1.">
       <created>1547038018817</created>
@@ -745,11 +745,18 @@
       <option name="project" value="LOCAL" />
       <updated>1563010243908</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary=".">
+      <created>1563010718504</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1563010718504</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="750073000" />
+    <option name="totallyTimeSpent" value="750332000" />
   </component>
   <component name="TodoView" selected-index="4">
     <todo-panel id="selected-file">
@@ -763,12 +770,12 @@
   <component name="ToolWindowManager">
     <frame x="377" y="105" width="1508" height="1452" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21931034" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21931034" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3252351" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49585634" visible="true" weight="0.18863636" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49585634" weight="0.18863636" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.2976032" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1210,8 +1217,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/爬取声兮.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="917">
-          <caret line="136" lean-forward="true" selection-start-line="136" selection-end-line="136" />
+        <state relative-caret-position="1695">
+          <caret line="113" column="27" lean-forward="true" selection-start-line="113" selection-start-column="27" selection-end-line="113" selection-end-column="27" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
