@@ -18,7 +18,7 @@ def a():
         try:
             rsp2 = requests.post(loginurl, headers=headers1, data=data)
         except Exception:
-            pass
+            print('一级重试')
         else:
             json1 = json.loads(rsp2.content)
             data_token = json1['data']
@@ -44,7 +44,7 @@ def b(token):
         try:
             rsp = requests.get(url, params=kw, headers=headers2)
         except:
-            pass
+            print('二级重试')
         else:
             a = rsp.content.decode("raw_unicode_escape")
             # print(a)
