@@ -1,4 +1,5 @@
 import time
+
 def abc():
     for a in qwe:
         for b in qwe:

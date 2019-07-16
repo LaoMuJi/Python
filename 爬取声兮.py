@@ -127,8 +127,6 @@ def aa():
         f.write(htmlstr)
 
 
-
-
 if __name__ == '__main__':
     while True:
         a()

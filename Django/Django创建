@@ -1,0 +1,27 @@
+创建django项目
+E:\Python\Django>django-admin startproject test1
+地址 django 开始项目 项目名称test1
+
+
+    创建应用
+    E:\Python\Django\test1>python manage.py startapp booktest
+    booktest 应用名称
+
+
+    建立应用和项目联系，注册应用
+    修改settings.py中的INSTALLED_APPS配置项，加入应用目录名 #33行
+
+
+        创建一个类，继承models.Model，定义字符串日期等，然后生成迁移文件
+
+        生成迁移文件
+        E:\Python\Django\test1>python manage.py makemigrations
+
+
+        执行迁移生成表
+        E:\Python\Django\test1>python manage.py migrate
+
+
+sqllite3 查看工具，sudo apt install sqliteman
+
+

@@ -1,42 +1,32 @@
-import re
+import pymysql
 
 
-def aa():
-    htmlstr = ''
-    html = '''
-    <br>
-    %s
-    <br>
-    <img src="%s" alt="" />
-    <br>
-    <audio src="%s" controls="controls"></audio>
-    <br>
-    %s
-    <br>
-    <br>
-    <br>
-    '''
+def main():
+    # 创建connect连接
+    conn = pymysql.connect(host='192.168.222.128', port=3306, user='liu', password='mysql', database='mysql')
+    # 获得cursor对象
+    cursor = conn.cursor()
+    # 执行select语句，并返回
+    count = cursor.execute('select user,host,authentication_string from user;')
+    # 打印，返回的是行数
+    print(count)
 
-    with open(r'C:\Users\lcc92\Desktop\音频.txt', 'r', encoding='UTF-8-sig') as f:
-        l = list(f)
-    print(l)
-    # for i in l:
-    #     m1 = re.match(r'^.*aac', i).group()
-    #     m2 = re.search(r' .*秒 ', i).group()
-    #     m3 = re.search(r'——.*——', i).group()
-    #     p = re.compile(r'——')
-    #     m3 = p.sub(r'', m3)
-    #     try:
-    #         m4 = re.search(r'http://im.*jpeg', i).group()
-    #     except:
-    #         m4 = ''
-    #     htmll = html % (m3, m4, m1, m2)
-    #     htmlstr += htmll
-    #     # print(htmlstr)
-    #
-    #
-    # with open(r'C:\Users\lcc92\Desktop\1.html', 'r+', encoding='utf-8') as f:
-    #     f.seek(285, 0)
-    #     f.write(htmlstr)
+    for i in range(count):
+        # 返回元祖
 
-aa()
+        # 返回一行，再取接着往下取
+        print(cursor.fetchone())
+        # 返回全部行数，取剩下的或者全部
+        # print(cursor.fetchall())
+        # 可以加参数，返回参数
+        # print(cursor.fetchmany())
+
+
+
+    cursor.close()
+    conn.close()
+
+
+
+if __name__ == '__main__':
+    main()
