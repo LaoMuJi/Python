@@ -45,6 +45,8 @@ ctrl + H
 应用全装到
 /usr/share/applications
 
+安装tar命令
+tar -zxvf 文件名.tar.gz
 
 
 # 命令

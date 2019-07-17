@@ -46,7 +46,7 @@ def b(token):
         except:
             print('二级重试')
         else:
-            a = rsp.content.decode("raw_unicode_escape")
+            a = rsp.content.decode("UTF-8-sig")
             # print(a)
             b = json.loads(a)
             c = b['data']
@@ -130,5 +130,6 @@ def aa():
 if __name__ == '__main__':
     while True:
         a()
+        print()
         time.sleep(180)
 

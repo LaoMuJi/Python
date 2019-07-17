@@ -12,6 +12,8 @@ set global validate_password_policy=LOW;
 
 账户管理
 使用user表
+use mysql;
+
 desc user;
 
 查看用户

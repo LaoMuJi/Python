@@ -11,6 +11,12 @@ class BookInfo(models.Model):
     # DateField 是一个日期类型
     bpub_date = models.DateField()
 
+    def __str__(self):
+        # 返回书名
+        return self.btitle
+
+
+
 
 
 
@@ -27,3 +33,8 @@ class HeroInfo(models.Model):
 
     # 建立图书类和英雄类一对多关系
     hbook = models.ForeignKey('BookInfo')
+
+    def __str__(self):
+        # 返回书名
+        return self.hname
+

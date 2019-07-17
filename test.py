@@ -3,11 +3,11 @@ import pymysql
 
 def main():
     # 创建connect连接
-    conn = pymysql.connect(host='192.168.222.128', port=3306, user='liu', password='mysql', database='mysql')
+    conn = pymysql.connect(host='192.168.222.128', port=3306, user='liu', password='mysql', database='data01')
     # 获得cursor对象
     cursor = conn.cursor()
     # 执行select语句，并返回
-    count = cursor.execute('select user,host,authentication_string from user;')
+    count = cursor.execute('select * from data01;')
     # 打印，返回的是行数
     print(count)
 
