@@ -81,7 +81,7 @@ DATABASES = {
         'NAME': 'data01',
         'USER': 'liu',
         'PASSWORD': 'mysql',
-        'HOST': '192.168.222.128',
+        'HOST': '192.168.222.129',
         'PORT': 3306,
     }
 }
@@ -90,9 +90,9 @@ DATABASES = {
 # Internationalization
 # https://docs.djangoproject.com/en/1.8/topics/i18n/
 
-LANGUAGE_CODE = 'en-us'
+LANGUAGE_CODE = 'zh-hans'
 
-TIME_ZONE = 'UTC'
+TIME_ZONE = 'Asia/shanghai'
 
 USE_I18N = True
 

@@ -4,6 +4,7 @@ from django.db import models
 
 class BookInfo(models.Model):
     btitle = models.CharField(max_length=20) #名称
+    # bprice = models.DecimalField(max_digits=10, decimal_places=2) # 价格最大位数10，小数点为2
     dpub_date = models.DateField() # 出版日期
     bread = models.IntegerField(default=0)  # 阅读量
     bcomment = models.IntegerField(default=0) # 评论量

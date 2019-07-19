@@ -2,12 +2,11 @@
 pip install virtualenv
 pip install virtualenvwrapper
 
-
-
 pip install django==1.8.2
 
-
 sqllite3 查看工具，sudo apt install sqliteman
+
+
 
 
 
@@ -58,7 +57,6 @@ pymysql.install_as_MySQLdb()
 
 
 
-
     创建一个类，继承models.Model，定义字符串日期等，然后生成迁移文件
 
     生成迁移文件
@@ -67,6 +65,7 @@ pymysql.install_as_MySQLdb()
 
     执行迁移生成表
     E:\Python\Django\test1>python manage.py migrate
+
 
 
 
@@ -81,6 +80,25 @@ admin.py添加
 
 
 
-添加模板参数建立templast文件夹，修改settings.py # 59行
+
+添加模板参数html建立templast文件夹，修改settings.py # 59行
 'DIRS': [os.path.join(BASE_DIR, 'templast')],
+
+
+
+
+
+
+urls添加路由参数
+url(r'^', include('booktest.urls')),
+
+然后再应用名称里面添加urls.py
+
+from django.conf.urls import url
+from . import views
+
+urlpatterns = [
+    url(r'^index$', views.index),
+]
+
 
