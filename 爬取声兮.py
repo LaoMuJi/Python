@@ -130,6 +130,8 @@ def aa():
 if __name__ == '__main__':
     while True:
         a()
-        print()
+        t = time.localtime()
+        ft = time.strftime("%Y{y}%m{m}%d{d} %H:%M", t).format(y='年', m='月', d='日')
+        print(ft)
         time.sleep(180)
 

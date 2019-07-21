@@ -17,5 +17,10 @@ class HereInfo(models.Model):
     hgender = models.BooleanField(default=False) # 性别
     hcomment = models.CharField(max_length=20) # 备注
     isDelete = models.BooleanField(default=False)  # 删除标记
-    hbook = models.ForeignKey('bookInfo') # 关联属性
+'''
+    hbook = models.ForeignKey('bookInfo') # 关联属性 一对多关系 定义在多的类中
 
+    hbook = models.ManyToManyField('bookInfo') # 关联属性 多对多关系
+
+    hbook = models.OneToOneField('bookInfo') # 一对一关系
+'''
