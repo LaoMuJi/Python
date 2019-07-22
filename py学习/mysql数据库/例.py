@@ -4,7 +4,7 @@ import pymysql
 class JD(object):
     def __init__(self):
         # 创建connection连接
-        self.conn = pymysql.connect(host='localhost', port=3306, user='root', password='mysql', database='jing_dong', charset='utf8')
+        self.conn = pymysql.connect(host='localhost', port=3306, user='root', password='mysql数据库', database='jing_dong', charset='utf8')
         # 获得cursor对象
         self.cursor = self.conn.cursor()
 

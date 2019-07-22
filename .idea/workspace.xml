@@ -4,51 +4,22 @@
     <list default="true" id="2bc700e0-4c28-477a-a61d-69b69d848947" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Django/test2/booktest/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/Django/test2/booktest/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/planeWAR/v.1/images/again.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/planeWAR/v.1/images/background.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/planeWAR/v.1/images/bomb.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/planeWAR/v.1/images/bomb_supply.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/planeWAR/v.1/images/bullet1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/planeWAR/v.1/images/bullet2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/planeWAR/v.1/images/bullet_supply.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/planeWAR/v.1/images/enemy1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/planeWAR/v.1/images/enemy1_down1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/planeWAR/v.1/images/enemy1_down2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/planeWAR/v.1/images/enemy1_down3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/planeWAR/v.1/images/enemy1_down4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/planeWAR/v.1/images/enemy2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/planeWAR/v.1/images/enemy2_down1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/planeWAR/v.1/images/enemy2_down2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/planeWAR/v.1/images/enemy2_down3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/planeWAR/v.1/images/enemy2_down4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/planeWAR/v.1/images/enemy2_hit.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/planeWAR/v.1/images/enemy3_down1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/planeWAR/v.1/images/enemy3_down2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/planeWAR/v.1/images/enemy3_down3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/planeWAR/v.1/images/enemy3_down4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/planeWAR/v.1/images/enemy3_down5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/planeWAR/v.1/images/enemy3_down6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/planeWAR/v.1/images/enemy3_hit.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/planeWAR/v.1/images/enemy3_n1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/planeWAR/v.1/images/enemy3_n2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/planeWAR/v.1/images/gameover.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/planeWAR/v.1/images/life.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/planeWAR/v.1/images/me1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/planeWAR/v.1/images/me2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/planeWAR/v.1/images/me_destroy_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/planeWAR/v.1/images/me_destroy_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/planeWAR/v.1/images/me_destroy_3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/planeWAR/v.1/images/me_destroy_4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/planeWAR/v.1/images/pause_nor.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/planeWAR/v.1/images/pause_pressed.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/planeWAR/v.1/images/resume_nor.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/planeWAR/v.1/images/resume_pressed.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/planeWAR/v.1/plane.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/planeWAR/v.a/ap.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/planeWAR/v.a/cfg.cfg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/planeWAR/v.a/cfg.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/planeWAR/v.a/world.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/爬取声兮.py" beforeDir="false" afterPath="$PROJECT_DIR$/爬取声兮.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django/test2/booktest/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/Django/test2/booktest/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django/test2/test2/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Django/test2/test2/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/py学习/mysql/0.安装设置.txt" beforeDir="false" afterPath="$PROJECT_DIR$/py学习/mysql数据库/0.安装设置.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/py学习/mysql/1.数据类型.sql" beforeDir="false" afterPath="$PROJECT_DIR$/py学习/mysql数据库/1.数据类型.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/py学习/mysql/2.基本命令.sql" beforeDir="false" afterPath="$PROJECT_DIR$/py学习/mysql数据库/2.基本命令.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/py学习/mysql/3.查询.sql" beforeDir="false" afterPath="$PROJECT_DIR$/py学习/mysql数据库/3.查询.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/py学习/mysql/4.操作.sql" beforeDir="false" afterPath="$PROJECT_DIR$/py学习/mysql数据库/4.操作.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/py学习/mysql/5.视图.sql" beforeDir="false" afterPath="$PROJECT_DIR$/py学习/mysql数据库/5.视图.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/py学习/mysql/6.事物.sql" beforeDir="false" afterPath="$PROJECT_DIR$/py学习/mysql数据库/6.事物.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/py学习/mysql/7.索引.sql" beforeDir="false" afterPath="$PROJECT_DIR$/py学习/mysql数据库/7.索引.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/py学习/mysql/8.账户管理.sql" beforeDir="false" afterPath="$PROJECT_DIR$/py学习/mysql数据库/8.账户管理.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/py学习/mysql/9.主从配置.sql" beforeDir="false" afterPath="$PROJECT_DIR$/py学习/mysql数据库/9.主从配置.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/py学习/mysql/例.py" beforeDir="false" afterPath="$PROJECT_DIR$/py学习/mysql数据库/例.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/py学习/mysql/查询.py" beforeDir="false" afterPath="$PROJECT_DIR$/py学习/mysql数据库/查询.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/py案例/玩/mini_frame/dynamic/mini_frame.py" beforeDir="false" afterPath="$PROJECT_DIR$/py案例/玩/mini_frame/dynamic/mini_frame.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -148,29 +119,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Django/test2/booktest/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="525">
+              <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+              <folding>
+                <element signature="e#0#67#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Django/test2/booktest/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="25" column="3" lean-forward="true" selection-start-line="25" selection-start-column="3" selection-end-line="25" selection-end-column="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/py学习/01.基本/8.日历时间 常用内置模块.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="675">
-              <caret line="72" selection-start-line="72" selection-end-line="74" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Django/test1/booktest/models.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="585">
-              <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
+            <state relative-caret-position="435">
+              <caret line="41" column="95" selection-start-line="41" selection-start-column="95" selection-end-line="41" selection-end-column="95" />
             </state>
           </provider>
         </entry>
@@ -232,8 +197,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/py学习/mysql/3.查询.sql" />
-        <option value="$PROJECT_DIR$/py学习/mysql/5.视图 事物 索引 账户管理 .sql" />
         <option value="$PROJECT_DIR$/py学习/03 多进程多线程协程/协程/生成器.py" />
         <option value="$PROJECT_DIR$/py案例/玩/面向对象的http服务器.py" />
         <option value="$PROJECT_DIR$/py学习/Spider爬虫/urllib/v08 HTTPERROR.py" />
@@ -275,20 +238,22 @@
         <option value="$PROJECT_DIR$/py学习/mysql/4.操作.sql" />
         <option value="$PROJECT_DIR$/Django/test2/booktest/urls.py" />
         <option value="$PROJECT_DIR$/Django/test2/templates/booktest/index.html" />
-        <option value="$PROJECT_DIR$/Django/test2/booktest/views.py" />
-        <option value="$PROJECT_DIR$/Django/test2/test2/settings.py" />
         <option value="$PROJECT_DIR$/Django/test2/booktest/admin.py" />
         <option value="$PROJECT_DIR$/py学习/mysql/0.安装.txt" />
         <option value="$PROJECT_DIR$/py学习/mysql/0.安装设置.txt" />
         <option value="$PROJECT_DIR$/py案例/玩/mini_frame/dynamic/mini_frame.py" />
-        <option value="$PROJECT_DIR$/Django/test2/booktest/models.py" />
         <option value="$PROJECT_DIR$/爬取声兮.py" />
+        <option value="$PROJECT_DIR$/py学习/mysql数据库/9.主从配置.sql" />
+        <option value="$PROJECT_DIR$/py学习/mysql数据库/4.操作.sql" />
+        <option value="$PROJECT_DIR$/Django/test2/booktest/views.py" />
+        <option value="$PROJECT_DIR$/Django/test2/test2/settings.py" />
+        <option value="$PROJECT_DIR$/Django/test2/booktest/models.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="290" />
-    <option name="y" value="162" />
+    <option name="x" value="187" />
+    <option name="y" value="122" />
     <option name="width" value="1745" />
     <option name="height" value="1730" />
   </component>
@@ -344,29 +309,6 @@
               <item name="Python" type="462c0819:PsiDirectoryNode" />
               <item name="Django" type="462c0819:PsiDirectoryNode" />
               <item name="test2" type="462c0819:PsiDirectoryNode" />
-              <item name="booktest" type="462c0819:PsiDirectoryNode" />
-              <item name="migrations" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Python" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Python" type="462c0819:PsiDirectoryNode" />
-              <item name="Django" type="462c0819:PsiDirectoryNode" />
-              <item name="test2" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Python" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Python" type="462c0819:PsiDirectoryNode" />
-              <item name="Django" type="462c0819:PsiDirectoryNode" />
-              <item name="test2" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="booktest" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Python" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Python" type="462c0819:PsiDirectoryNode" />
-              <item name="Django" type="462c0819:PsiDirectoryNode" />
-              <item name="test2" type="462c0819:PsiDirectoryNode" />
               <item name="test2" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -384,7 +326,7 @@
               <item name="Python" type="b2602c69:ProjectViewProjectNode" />
               <item name="Python" type="462c0819:PsiDirectoryNode" />
               <item name="py学习" type="462c0819:PsiDirectoryNode" />
-              <item name="mysql" type="462c0819:PsiDirectoryNode" />
+              <item name="mysql数据库" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -455,6 +397,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="6.1 类方法" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/py学习/01.基本" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/py学习/01.基本/6.1 类方法.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="8.日历时间 常用内置模块" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -491,28 +455,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/py学习/mysql/例.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="admin" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Python" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Django/test1/booktest" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Django/test1/booktest/admin.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -568,10 +510,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.爬取声兮" />
+        <item itemvalue="Python.6.1 类方法" />
         <item itemvalue="Python.8.日历时间 常用内置模块" />
         <item itemvalue="Python.test" />
         <item itemvalue="Python.test2" />
-        <item itemvalue="Python.admin" />
       </list>
     </recent_temporary>
   </component>
@@ -669,7 +611,7 @@
       <workItem from="1563342299234" duration="1033000" />
       <workItem from="1563343358582" duration="21060000" />
       <workItem from="1563374496878" duration="44000" />
-      <workItem from="1563374560284" duration="43952000" />
+      <workItem from="1563374560284" duration="52148000" />
     </task>
     <task id="LOCAL-00001" summary="1.">
       <created>1547038018817</created>
@@ -979,11 +921,18 @@
       <option name="project" value="LOCAL" />
       <updated>1563557613035</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary=".">
+      <created>1563728216098</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1563728216098</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="904629000" />
+    <option name="totallyTimeSpent" value="912825000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -995,14 +944,15 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="232" y="130" width="1396" height="1384" extended-state="0" />
+    <frame x="244" y="146" width="1396" height="1384" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20029895" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3252351" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4937931" visible="true" weight="0.19888179" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32507986" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4937931" weight="0.19888179" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.2976032" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1011,7 +961,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49586207" weight="0.3261391" />
       <window_info anchor="bottom" id="Database Changes" order="9" weight="0.3290735" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50620687" side_tool="true" weight="0.18863636" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32428116" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.32428116" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.3287879" />
       <window_info active="true" anchor="bottom" id="GitHub Pull Requests" order="13" weight="0.32954547" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -1095,7 +1045,8 @@
     <SUITE FILE_PATH="coverage/Python$8__.coverage" NAME="8.日历时间 常用内置模块 Coverage Results" MODIFIED="1563728108384" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/py学习/01.基本" />
     <SUITE FILE_PATH="coverage/Python$admin.coverage" NAME="admin Coverage Results" MODIFIED="1563296215576" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Django/test1/booktest" />
     <SUITE FILE_PATH="coverage/Python$test2.coverage" NAME="test2 Coverage Results" MODIFIED="1563372800725" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Python$.coverage" NAME="爬取声兮 Coverage Results" MODIFIED="1563728182095" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Python$6_1_.coverage" NAME="6.1 类方法 Coverage Results" MODIFIED="1563737991117" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/py学习/01.基本" />
+    <SUITE FILE_PATH="coverage/Python$.coverage" NAME="爬取声兮 Coverage Results" MODIFIED="1563774187449" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Python$http.coverage" NAME="http服务器 Coverage Results" MODIFIED="1563098215756" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/py案例" />
     <SUITE FILE_PATH="coverage/Python$test.coverage" NAME="test Coverage Results" MODIFIED="1563376221892" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
@@ -1104,37 +1055,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
           <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/py学习/mysql/7.索引.sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/py学习/mysql/6.事物.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/py学习/mysql/例.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="40" lean-forward="true" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/py学习/mysql/查询.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/py学习/mysql/5.视图.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>
@@ -1273,21 +1193,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/py学习/mysql/2.基本命令.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="4" lean-forward="true" selection-start-line="27" selection-start-column="4" selection-end-line="27" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/py学习/mysql/4.操作.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="24" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/py学习/mysql/3.查询.sql">
+    <entry file="file://$PROJECT_DIR$/py学习/mysql数据库/3.查询.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2493">
           <caret line="56" column="32" lean-forward="true" selection-start-line="56" selection-start-column="32" selection-end-line="56" selection-end-column="32" />
@@ -1318,9 +1224,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/py学习/mysql/1.数据类型.sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/Django/Django创建">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1022">
@@ -1341,16 +1244,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Django/test1/booktest/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="825">
-          <caret line="55" lean-forward="true" selection-start-line="55" selection-end-line="55" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Django/test2/booktest/admin.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -1361,29 +1254,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Django/test2/test2/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="638">
-          <caret line="92" selection-start-line="92" selection-end-line="94" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Django/test2/booktest/tests.py">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/py学习/mysql/8.账户管理.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/py学习/mysql/9.主从配置.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" selection-start-line="26" selection-end-line="26" selection-end-column="26" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/py案例/玩/mini_frame/dynamic/mini_frame.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -1395,29 +1267,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Django/test2/booktest/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="33" selection-start-line="33" selection-end-line="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/py学习/mysql/0.安装设置.txt">
+    <entry file="file://$PROJECT_DIR$/py学习/mysql数据库/0.安装设置.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="722">
           <caret line="54" lean-forward="true" selection-start-line="54" selection-end-line="54" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/py学习/01.基本/6.0 面向对象.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" column="8" selection-start-line="29" selection-start-column="8" selection-end-line="29" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/py学习/01.基本/6.1 类方法.py">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/py学习/01.基本/6.2 继承多态.py">
       <provider selected="true" editor-type-id="text-editor" />
@@ -1436,13 +1291,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Django/test1/booktest/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="585">
-          <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/py学习/01.基本/8.日历时间 常用内置模块.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="675">
@@ -1450,20 +1298,134 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Django/test1/booktest/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="825">
+          <caret line="55" lean-forward="true" selection-start-line="55" selection-end-line="55" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/py学习/mysql数据库/2.基本命令.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-450">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/py学习/mysql数据库/5.视图.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/py学习/mysql数据库/6.事物.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/py学习/mysql数据库/7.索引.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/py学习/mysql数据库/8.账户管理.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/py学习/mysql数据库/9.主从配置.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="45" selection-start-line="45" selection-end-line="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/py学习/mysql数据库/例.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="40" lean-forward="true" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/py学习/mysql数据库/查询.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/py学习/mysql数据库/1.数据类型.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="810">
+          <caret line="54" column="24" selection-start-line="54" selection-start-column="24" selection-end-line="54" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/py学习/mysql数据库/4.操作.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Django/test1/booktest/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="585">
+          <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/爬取声兮.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="849">
-          <caret line="137" lean-forward="true" selection-start-line="137" selection-end-line="137" />
+        <state relative-caret-position="480">
+          <caret line="32" column="25" lean-forward="true" selection-start-line="32" selection-start-column="25" selection-end-line="32" selection-end-column="25" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/py学习/01.基本/6.1 类方法.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="6" lean-forward="true" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/py学习/01.基本/6.0 面向对象.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="780">
+          <caret line="52" column="24" lean-forward="true" selection-start-line="52" selection-start-column="24" selection-end-line="52" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Django/test2/test2/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="88" lean-forward="true" selection-start-line="88" selection-end-line="88" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Django/test2/booktest/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+          <folding>
+            <element signature="e#0#67#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Django/test2/booktest/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="3" lean-forward="true" selection-start-line="25" selection-start-column="3" selection-end-line="25" selection-end-column="3" />
+        <state relative-caret-position="435">
+          <caret line="41" column="95" selection-start-line="41" selection-start-column="95" selection-end-line="41" selection-end-column="95" />
         </state>
       </provider>
     </entry>

@@ -3,7 +3,7 @@ import pymysql
 
 def main():
     # 创建connect连接
-    conn = pymysql.connect(host='localhost', port=3306, user='root', password='mysql', database='数据库名')
+    conn = pymysql.connect(host='localhost', port=3306, user='root', password='mysql数据库', database='数据库名')
     # 获得cursor对象
     cursor = conn.cursor()
     # 执行select语句，并返回

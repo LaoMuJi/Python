@@ -2,7 +2,7 @@ from django.shortcuts import render,redirect # 导入重定向函数redirect 简
 from .models import BookInfo
 from datetime import date
 
-from django.http import HttpResponse,HttpResponseRedirect # 重定向函数 复杂写 父
+# from django.http import HttpResponse,HttpResponseRedirect # 重定向函数 复杂写 父
 # Create your views here.
 
 def index(request):
@@ -18,7 +18,7 @@ def create(request):
     b = BookInfo()
     b.btitle = '99999'
     b.dpub_date = date(2000,1,1)
-    b.save()
+    b.save() # 插入，更新，保存
 
     # return HttpResponse('OK')
     # return HttpResponseRedirect('/index')
@@ -28,6 +28,8 @@ def create(request):
 def delete(request, bid):
 
     book = BookInfo.objects.get(id=bid)
-    book.delete()
+    book.delete() # 删除
     # return HttpResponseRedirect('/index')
     return redirect('/index')
+
+

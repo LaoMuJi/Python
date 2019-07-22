@@ -39,7 +39,7 @@ FLUSH PRIVILEGES;
 SHOW MASTER STATUS;
 
 进入从服务器输入
-change master to master_host='主服务器IP', master_user='slave', master_password='slave',master_log_file='mysql-bin.000006', master_log_pos=590;
+change master to master_host='主服务器IP', master_user='slave', master_password='slave',master_log_file='mysql数据库-bin.000006', master_log_pos=590;
 
 检查 从服务器输入  slave_IO_Running:YES下面的也是YES 表示成功
 show slave status \G;

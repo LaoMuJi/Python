@@ -3,6 +3,10 @@ insert into 表(标题) values...;
 insert into 表 values(0, "..."), (0, "...")
 insert into 表(标题) select(查询);
 
+    -- 插入文件数据
+    --cd 文件目录，登录mysql -u，切换到数据库
+    source xxx.sql
+
 
 -- 表1的字段1对应表2的字段2
 -- 表1的字段1更改成表2字段1

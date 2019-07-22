@@ -23,9 +23,9 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = 'k9awdx&x*b*=c1#-0u91+6=&4i1z03di$n5%o(7hfek+8nl93j'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+# DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -81,7 +81,7 @@ DATABASES = {
         'NAME': 'data01',
         'USER': 'liu',
         'PASSWORD': 'mysql',
-        'HOST': '192.168.222.129',
+        'HOST': '192.168.222.132',
         'PORT': 3306,
     }
 }
