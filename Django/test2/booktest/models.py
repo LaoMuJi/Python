@@ -1,5 +1,4 @@
 from django.db import models
-
 # Create your models here.
 
 class BookInfoManager(models.Manager): # 图书模型管理器类
@@ -34,7 +33,7 @@ class BookInfo(models.Model):
     bcomment = models.IntegerField(default=0) # 评论量
     isDelete = models.BooleanField(default=False) # 删除标记
 
-    book = BookInfoManager() # 添加自定义管理器
+    # book = BookInfoManager() # 添加自定义管理器
 
 
     class Meta: # 类名和变量写法是固定的
@@ -42,9 +41,6 @@ class BookInfo(models.Model):
         元类，改变应用名的时候变成booktest2，数据库里面，不再是booktest_bookinfo，变成booktest2_bookinfo，但是数据库不会更改，所以使用这个
         '''
         db_table = 'bookinfo' # 指定模型类对应的表名，数据库表
-
-
-
 
 
 class HereInfo(models.Model):

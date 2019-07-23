@@ -12,12 +12,12 @@ sqllite3 查看工具，sudo apt install sqliteman
 
 
 
-创建django项目
+1.创建django项目
 E:\Python\Django>django-admin startproject test1
 地址 django 开始项目 项目名称test1
 
 
-    创建应用
+    2.创建应用
     E:\Python\Django\test1>python manage.py startapp booktest
     booktest 应用名称
 
@@ -81,7 +81,7 @@ admin.py添加
 
 
 
-添加模板参数html建立templast文件夹，修改settings.py # 59行
+！添加模板参数html建立templast文件夹，修改settings.py # 59行 templast文件夹名称
 'DIRS': [os.path.join(BASE_DIR, 'templast')],
 
 
