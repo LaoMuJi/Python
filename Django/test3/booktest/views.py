@@ -1,5 +1,6 @@
 from django.shortcuts import render,redirect
-from django.http import HttpResponse
+from django.http import HttpResponse,JsonResponse
+
 
 # Create your views here.
 
@@ -33,3 +34,26 @@ def login_check(request):
         return redirect('/index')
     else:
         return redirect('/login')
+
+
+def ajax_test(request):
+    return render(request, 'booktest/test_ajax.html')
+
+
+def ajax_handle(requset):
+    return JsonResponse({'res':1})
+
+
+def login_ajax(request):
+    return render(request,'booktest/login_ajax.html')
+
+
+
+def login_ajax_check(request):
+    username = request.POST.get('username')
+    password = request.POST.get('password')
+
+    if username == '0' and password == '0':
+        return JsonResponse({'res':1})
+    else:
+        return JsonResponse({'res':0})
