@@ -17,4 +17,8 @@ urlpatterns = [
 
     url(r'^set_cookie$', views.set_cookie),
     url(r'^get_cookie$', views.get_cookie),
+
+    url(r'^set_session$', views.set_session),
+    url(r'^get_session$', views.get_session),
+    url(r'^clear_session', views.clear_session),
 ]

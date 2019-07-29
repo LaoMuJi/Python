@@ -131,7 +131,7 @@ if __name__ == '__main__':
     while True:
         a()
         t = time.localtime()
-        ft = time.strftime("%Y{y}%m{m}%d{d} %H:%M", t).format(y='年', m='月', d='日')
+        ft = time.strftime("%Y{y}%m{m}%d{d} %H:%M", t).format(y='-', m='-', d='')
         print(ft)
         time.sleep(180)
 
