@@ -1,0 +1,38 @@
+1.创建
+    创建文件夹
+    cd到目录
+    git init 初始化
+    git add XXX 添加进git
+    git commit -m '说明' 提交设置版本号，说明
+
+
+
+2.修改
+    git reset --hard HEAD~1 退回1个版本，1代表几次
+    git reset --hard '说明' 退回任意版本，版本号
+    git reset --hard 8fe70a4 退回任意版本，编号是版本
+
+    git reset HEAD 文件 丢弃暂存区的文件改动
+    git checkout -- 文件 丢弃某文件的工作区改动
+
+
+
+
+3.查看
+    git log 查看log
+    git log --pretty=oneline 显示一行
+    git reflog 查看全部操作记录
+    git status 查看当前工作区还有什么没提交
+
+    git diff HEAD -- 文件 对比工作区和版本的区别
+    git diff HEAD HEAD~1 -- 文件 对比版本和上个版本的区别
+
+
+
+4.分支
+    git branch 查看分支
+    git checkout master 切换master分支
+    git checkout -b X 创建新的X分支并切换
+    git merge X 合并，在当前合并X分支
+    git branch -d X 删除X分支
+    git log --graph --pretty=oneline 查看分支线
