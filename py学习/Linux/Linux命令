@@ -43,6 +43,7 @@ sudo apt install sqliteman
 ctrl + H
 
 应用全装到
+/usr/local
 /usr/share/applications
 
 安装tar命令

@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2bc700e0-4c28-477a-a61d-69b69d848947" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/py学习/git/git使用" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/py学习/Linux/Linux命令" beforeDir="false" afterPath="$PROJECT_DIR$/py学习/Linux/Linux命令" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/py学习/git/git使用" beforeDir="false" afterPath="$PROJECT_DIR$/py学习/git使用" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -115,12 +116,12 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/py学习/Linux/Linux命令">
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="525">
-                <caret line="35" column="26" selection-start-line="35" selection-start-column="26" selection-end-line="35" selection-end-column="26" />
+              <first_editor relative-caret-position="675">
+                <caret line="45" column="10" selection-start-line="45" selection-start-column="10" selection-end-line="45" selection-end-column="10" />
               </first_editor>
               <second_editor>
                 <markdownNavigatorState />
@@ -153,11 +154,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/py学习/git/git使用">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/py学习/git使用">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
-              <caret line="35" column="16" lean-forward="true" selection-start-line="35" selection-start-column="16" selection-end-line="35" selection-end-column="16" />
+            <state relative-caret-position="795">
+              <caret line="53" column="4" selection-start-line="53" selection-start-column="4" selection-end-line="53" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -231,8 +232,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Django/test1/test1/wsgi.py" />
-        <option value="$PROJECT_DIR$/Django/test1/booktest/admin.py" />
         <option value="$PROJECT_DIR$/Django/test1/test1/urls.py" />
         <option value="$PROJECT_DIR$/Django/test1/test1/settings.py" />
         <option value="$PROJECT_DIR$/Django/test1/booktest/urls.py" />
@@ -282,12 +281,14 @@
         <option value="$PROJECT_DIR$/Django/test2/templates/booktest/index.html" />
         <option value="$PROJECT_DIR$/爬取声兮.py" />
         <option value="$PROJECT_DIR$/py学习/git/git使用" />
+        <option value="$PROJECT_DIR$/py学习/git使用" />
+        <option value="$PROJECT_DIR$/py学习/Linux/Linux命令" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1688" />
-    <option name="y" value="183" />
+    <option name="x" value="1658" />
+    <option name="y" value="166" />
     <option name="width" value="1745" />
     <option name="height" value="1717" />
   </component>
@@ -315,7 +316,7 @@
               <item name="Python" type="b2602c69:ProjectViewProjectNode" />
               <item name="Python" type="462c0819:PsiDirectoryNode" />
               <item name="py学习" type="462c0819:PsiDirectoryNode" />
-              <item name="git" type="462c0819:PsiDirectoryNode" />
+              <item name="Linux" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -345,8 +346,8 @@
       <recent name="E:\Python\Django\test2\booktest" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\Python\py学习\01.基本" />
       <recent name="E:\Python\py学习" />
+      <recent name="E:\Python\py学习\01.基本" />
       <recent name="E:\Python\py学习\Linux" />
       <recent name="E:\Python\py学习\02格式化文件存储\XML" />
       <recent name="E:\Python\py学习\02格式化文件存储\正则" />
@@ -603,14 +604,7 @@
       <workItem from="1563374496878" duration="44000" />
       <workItem from="1563374560284" duration="54859000" />
       <workItem from="1563852075904" duration="768000" />
-      <workItem from="1563852947826" duration="65615000" />
-    </task>
-    <task id="LOCAL-00002" summary="1.">
-      <created>1547038106566</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1547038106566</updated>
+      <workItem from="1563852947826" duration="76473000" />
     </task>
     <task id="LOCAL-00003" summary="1.">
       <created>1547568070407</created>
@@ -948,11 +942,18 @@
       <option name="project" value="LOCAL" />
       <updated>1564376319440</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary=".">
+      <created>1564467254235</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1564467254235</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="981919000" />
+    <option name="totallyTimeSpent" value="992777000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -964,9 +965,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1351" y="147" width="1396" height="1373" extended-state="0" />
+    <frame x="1327" y="133" width="1396" height="1373" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20627803" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20627803" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -1386,18 +1387,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/py学习/Linux/Linux命令">
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="525">
-            <caret line="35" column="26" selection-start-line="35" selection-start-column="26" selection-end-line="35" selection-end-column="26" />
-          </first_editor>
-          <second_editor>
-            <markdownNavigatorState />
-          </second_editor>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Django/test3/booktest/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -1432,10 +1421,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/py学习/git/git使用">
+    <entry file="file://$PROJECT_DIR$/py学习/git使用">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="35" column="16" lean-forward="true" selection-start-line="35" selection-start-column="16" selection-end-line="35" selection-end-column="16" />
+        <state relative-caret-position="795">
+          <caret line="53" column="4" selection-start-line="53" selection-start-column="4" selection-end-line="53" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/py学习/Linux/Linux命令">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="675">
+            <caret line="45" column="10" selection-start-line="45" selection-start-column="10" selection-end-line="45" selection-end-column="10" />
+          </first_editor>
+          <second_editor>
+            <markdownNavigatorState />
+          </second_editor>
         </state>
       </provider>
     </entry>
