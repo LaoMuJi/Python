@@ -1,0 +1,10 @@
+sudo apt install redis
+
+vim /etc/redis/redis.conf 配置文件
+
+启动停止
+sudo service redis start
+sudo service redis stop
+sudo service redis restart
+
+select 0 选择1号数据库，默认0-15 一共16个
