@@ -66,3 +66,6 @@ ifconfig 查看网络
 ps 显示进程
 top 动态实时视图进程
 htop 动态实时视图进程 高级 sudo apt install htop
+
+ps -ef |grep mysql 查看mysql的进程端口
+sudo netstat -tlnp | grep redis 查看redis的端口
