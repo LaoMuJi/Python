@@ -12,4 +12,4 @@ def get_session(resquest):
     username = resquest.session['username']
     age = resquest.session['age']
 
-    return HttpResponse(username, age)
+    return HttpResponse(username+str(age))
