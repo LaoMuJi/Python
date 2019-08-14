@@ -28,6 +28,11 @@ sudo apt-get update
 
 # 安装工具
 
+sh pycharm.sh
+
+sudo vi /etc/hosts
+0.0.0.0 account.jetbrains.com
+
 ## 卸载
 
 sudo apt --purge remove mysql-server

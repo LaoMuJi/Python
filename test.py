@@ -1,3 +1,3 @@
-import datetime
-
-print(datetime.timedelta(days=14)+datetime.datetime.now())
+a = 123
+b= ''
+print(all([a,b]))

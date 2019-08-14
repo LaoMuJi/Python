@@ -1,0 +1,3 @@
+flask run --host=0.0.0.0 启动服务
+export FLASK_DEBUG=1 开启调试模式
+export FLASK_APP=url.py 设置启动文件
