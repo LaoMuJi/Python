@@ -69,7 +69,7 @@ def b(token):
                     topic_name = d['topic_name']
                 if 'resource' in d:
                     g = d['resource']
-                    # print(g)
+                    print(g)
                     # album_name = g['album_name'] + '(音乐)'
 
                 out = voice_url + ' ' + t + ' ' + voice_len + '秒' + ' ' + '——' + topic_name + album_name + '——' + ' ' + m

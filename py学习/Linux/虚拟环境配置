@@ -1,5 +1,5 @@
-pip install virtualenv
-pip install virtualenvwrapper
+pip3 install virtualenv
+pip3 install virtualenvwrapper
 mkdir $HOME/.virtualenvs
 
 sudo find / -name virtualenvwrapper.sh # 查找virtualenvwrapper.sh文件路径
@@ -14,16 +14,21 @@ virtualenv flask2 -p python3 # 指定py版本环境创建
 workon flask1               # 进入虚拟环境
 deactivate                  # 退出虚拟环境
 
-pip install flask==0.10.1   # 安装flask
+pip3 install flask==0.10.1   # 安装flask
 
-pip list # 查看工具包
+pip3 list # 查看工具包
 
-pip freeze # 查看查看工具包
-pip freeze > requirements.txt # 导出
-pip install -r requirements.txt # 安装
+pip3 freeze # 查看查看工具包
+pip3 freeze > requirements.txt # 导出
+pip3 install -r requirements.txt # 安装
 
 rmvirtualenv flask1 # 删除虚拟环境
 
 
 
 pip uninstall virtualenv # 卸载virtualenv
+
+
+
+
+sudo apt install python3-dev
