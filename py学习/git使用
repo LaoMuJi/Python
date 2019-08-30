@@ -3,6 +3,7 @@
     cd到目录
     git init 初始化
     git add XXX 添加进git
+    git rm XXX 删除
     git commit -m '说明' 提交设置版本号，说明
 
 
@@ -10,7 +11,7 @@
 2.修改
     git reset --hard HEAD~1 退回1个版本，1代表几次
     git reset --hard '说明' 退回任意版本，版本号
-    git reset --hard 8fe70a4 退回任意版本，编号是版本
+    git reset --hard 8A4C5373 退回任意版本，编号是版本
 
     git reset HEAD 文件 丢弃暂存区的文件改动
     git checkout -- 文件 丢弃某文件的工作区改动
